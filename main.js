@@ -75,7 +75,7 @@ function addBookmark(name, url){
                <a onclick="removeBookmark(this)"
                   class="delete" href="#">Delete</a>
             </div>`;
-            view_bookmarksSection.innerHTML += item;
+            view_bookmarksSection.innerHTML += item; 
          }
 
 
