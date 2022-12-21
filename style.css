@@ -1,0 +1,122 @@
+*{
+            box-sizing: border-box;
+            font-family: sans-serif;
+         }
+         body{
+            margin: 0;
+            padding: 0;
+            background-color: #979090;
+         }
+         a{
+            text-decoration: none;
+            color: #fff;
+         }
+         
+         /*Title style*/
+         h1{
+            width: 100%;
+            height: 85px;
+            text-align: center;
+            line-height: 85px;
+            margin: 0;
+            padding: 0;
+            background-color: #37abbb;
+            letter-spacing: 2px;
+            word-spacing: 8px;
+            color: #fff;
+         }
+         h2{
+            color: #fff;
+            padding-left: 30px;
+         }
+         .container{
+            width: 620px;
+            min-height: 160px;
+            background-color: #464040;
+            margin: 0 auto;
+         }
+         
+         /*form section style*/
+         .form{
+            width: 100%;
+            height: auto;
+            background-color: #37abbb;
+            padding: 38px 48px;
+            margin: 20px 0;
+         }
+         .input-field{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 15px;
+         }
+         .input-field input[type="text"]{
+            width: 245px;
+            height: 26px;
+            outline: none;
+            border: none;
+            background-color: #fff;
+            border-bottom: 2px solid #fff;
+            padding-left: 10px;
+            color: #000000;
+         }
+         .input-field label{
+            color: #fff;
+            font-weight: bold;
+            margin-bottom: 5px;
+         }
+         .save_button{
+            display: block;
+            margin: 0 auto;
+            border: none;
+            width: 69px;
+            height: 26px;
+            background-color: #fff;
+            color: #000;
+            cursor: pointer;
+            outline: none;
+            font-weight: 500;
+         }
+         
+         /*Bookmarks section style*/
+         .view_bookmarks{
+            width: 100%;
+            background-color: #37abbb;
+            padding: 20px;
+         }
+         .btn_bookmark{
+            display: flex;
+            align-items: center;
+            width: 305px;
+            height: 42px;
+            padding: 5px 20px;
+            background-color: #37abbb;
+            margin-bottom: 10px;
+            background-color: #464040;
+         }
+         .btn_bookmark span{
+            flex: 1;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            color: #fff;
+         }
+         .btn_bookmark .visit{
+            width: 52px;
+            height: 26px;
+            line-height: 25px;
+            text-align: center;
+            background-color: #37abbb;
+            color: #fff;
+            border-radius: 5px;
+            margin: 0 5px;
+            font-weight: 500;
+         }
+         .btn_bookmark .delete{
+            width: 62px;
+            height: 26px;
+            line-height: 25px;
+            text-align: center;
+            background-color: #e91e63;
+            border-radius: 5px;
+            font-weight: 500;
+         }

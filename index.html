@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<title>Build a Site Bookmark App with JavaScript by using Local Storage - TutorialsPoint</title>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- link the CSS file here -->
+   <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <h1>App for Bookmarking Sites on Tutorialspoint!</h1>
+   <div class="container">
+      
+      <!-- form for entering site information -->
+      <form class="form" action="#">
+         <div class="input-field">
+            <label for="site_name">Site Name</label>
+            <input name="site_name" type="text" placeholder="name">
+         </div>
+         <div class="input-field">
+            <label for="url">Site URL</label>
+            <input name="url" type="text" placeholder="https://www.mysite.com">
+         </div>
+         <button class="save_button">Save</button>
+      </form>
+      
+      <!-- the area in which bookmarks will be shown -->
+      <h2>Saved Bookmarks</h2>
+      <div class="view_bookmarks"></div>
+   </div>
+   
+   <!-- link the JavaScript file here -->
+   <script src="./main.js"></script>
+</body>
+</html>
